@@ -2,23 +2,26 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.welcome-info h1{
+body h1{
     font-size: 50px;
 }
 .orange-color{
     color:orange;
 }
-.Welcome-section{
-    display:flex;
+.top-banner{ 
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    
+}
+.flexible-container{
+    display:flex;
     margin-bottom: 100px;
 }
-.welcome-info{
+.half-width{
     width:50%;
     padding-left:5%;
 }
-.welcome-info img{
+.half-width img{
     width:85%;
 }
 .hire-button{
@@ -28,5 +31,9 @@ body{
     border-radius: 3px;
     font-weight: 700;
     color:white;
-
+}
+.big-dream{
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
 }
